@@ -27,12 +27,18 @@ namespace Common.TableModels
 
         public string OrganizationBillingEmail { get; set; }
 
-        public int PlanId { get; set; }
+        public int? PlanId { get; set; }
 
-        public int SenderId { get; set; }
+        public int? SenderId { get; set; }
 
         public string SenderLogin { get; set; }
 
-        public bool Student { get; set; }
+        public bool? Student { get; set; }
+
+        public int? AllowedPrivate { get; set; }
+
+        public int? UsedPrivate { get; set; }
+
+        public bool? FreeTrial { get; set; }
     }
 }
